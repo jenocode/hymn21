@@ -1,0 +1,12 @@
+main > .container {
+    padding: 80px 15px 0;
+}
+
+.list-song-number {
+  min-width: 40px;
+}
+.list-song-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
