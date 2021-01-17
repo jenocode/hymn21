@@ -35,6 +35,11 @@ $(function() {
         .always(function(data){
         });
 
+    // リロード
+    $("#navbar-brand").click(function(){
+        location.reload();
+    });
+
     // 曲選択
     $("body").on('click','.btn-select-song', function() {
 
